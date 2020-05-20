@@ -2,7 +2,7 @@ import React, { useState, Fragment } from "react";
 import AddUserForm from "./forms/AddUserForm";
 import UserTable from "./tables/UserTable";
 import Student from "./tables/Student";
-import "./App.scss";
+
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const App = () => {
